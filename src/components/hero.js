@@ -1,8 +1,9 @@
+import Img from "../img/hero.jpg"
 export default function hero(){
     return (
         <div id="hero">
         
-        <img id="heroImg"src=" " alt=" img"/>
+        <img id="heroImg"src={Img} alt=" img"/>
         <div id="heroText">   
             <h1>Online Experiences</h1>
             <p>Note that the development build is not optimized.

@@ -1,12 +1,21 @@
 body{
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #logo{
+    border-radius: 50%;
     max-width: 100px;
     max-height: 100px;
     min-width: 50px;
     min-height: 50px;
+}
+#heroImg{
+    max-width: 800px;
+    max-height: 600px;
+    min-width: 200px;
+    min-height: 100px;
+    border-radius: 10%;
 }
 #hero{
     display: flex;
@@ -14,7 +23,7 @@ body{
     align-items: center;
     gap: 2rem;
     padding: 2rem 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.458);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.366);
 }
 nav{
     padding: 10px 36px;
@@ -24,6 +33,30 @@ nav{
     align-items: center;
     text-align: center;
     font-size: xx-large;
-    gap: 10em;
+    /* gap: 10em; */
     border-bottom: 1px solid rgba(0, 0, 0, 0.282);
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    padding: 1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+        /* justify-content:center; */
+        gap: 1rem;
+        /* align-items: center; */
+        padding: 1rem;
+        border-radius: 10%;
+        /* border: 1px solid; */
+}
+.bold{
+    font-weight: bold;
+}
+.cardImg{
+    border-radius: 10px;
+    max-width:220px ;
+    max-height: 220px;
 }
