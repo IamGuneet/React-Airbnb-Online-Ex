@@ -32,6 +32,11 @@ const experiences = [{
     name:"Susy",
     price :"278",
     url:Img3
+},{
+    rating:"*3.2(6)",
+    name:"Shreyas",
+    price :"132",
+    url:Img1
 }];
 
 
